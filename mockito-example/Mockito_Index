@@ -1,0 +1,39 @@
+
+testDeleteTodosNotRelatedToSpring_usingBDD() : tests the delete method whose return type is void.
+	-> when there are no return values for method then how to test.
+	-> try using other method in place of times(1), never() ... 
+	
+24 Step 06 : BDD (Behaviour driven development):	
+
+	// Given
+	
+	// When
+	
+	// Then     [at 7:00]
+	
+	
+25 Step 07 : Verify calls on Mocks : 
+   -> can check how many times a method will be called 
+   -> times(), never(), atLeast(n).
+   
+   	verify(todoServiceMock, times(1)).deleteTodo("Learn to Dance");// check other methods like times(1) atLeast
+   	
+
+27. Step 09 : Hamcrest Matchers
+	-> explore
+		-> other methods in the class.
+	
+28. Step 10 : Mockito Annotations - @Mock, @InjectMocks, @RunWith, @Captor..	
+
+29. Step 11 : Mockito Junit Rule
+	-> not much clear about how and why to use Rule vs RunWith
+	
+30. Step 12 : Real world Mockito Example with Spring	
+	-> there is good learning in this project, Captor and all.
+	-> test of the methods which return type is void.
+		-> if the method dont have any call to the mocked object method then how to verify ?
+		
+		
+		
+		
+		

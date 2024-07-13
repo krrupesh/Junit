@@ -1,0 +1,20 @@
+HELP.md
+
+### STS ###
+.classpath
+.project
+.settings
+
+### IntelliJ IDEA ###
+Test
+RemoteSystemsTempFiles
+.idea
+.metadata
+.recommenders
+/*/.idea
+*.iws
+*.iml
+*.ipr
+.recommenders
+.metadata
+_MACOSX
